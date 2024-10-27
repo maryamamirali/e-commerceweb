@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+/*for description */
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=swap');
+
+/*for numbers*/
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+/*for title*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Fredoka", sans-serif;
+
+}
+
+/*SIGNUP*/
+.signup-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.signup-form{
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.label{
+  display: block;
+  margin-bottom: 5px;
+margin-right: 270px;
+  color: #555;
+  margin-top: 10px;
+}
+
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 9px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+.input-group input:focus {
+  border-color: #e99fed;
+  outline: none;
+  box-shadow: 0 0 5px #f2c3f4;
+}
+
+.signup-button{
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.signup-button:hover {
+  background: linear-gradient(45deg, #454545, #8e8e8e);
+}
+
+.already-have-account {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.already-have-account a {
+  color: #a4a4a4;
+  text-decoration: none;
+}
+
+.already-have-account a:hover {
+  text-decoration: underline;
+}
+
+/*SIGNIN*/
+.signin-h1{
+  text-align: center;
+}
+
+/*NAVBAR*/
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .search-bar input {
+  margin-left: 450px;
+  padding: 7px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #edece9;
+}
+
+.search-bar input:focus {
+  border-color: #525252;
+  outline: none;
+  box-shadow: 0 0 5px #5b5b5b;
+}
+
+.navbar .search-bar .navbar-button {
+  padding: 5px 13px;
+  margin-left: 5px;
+  background-color: #b5b1b1;
+  color: rgb(254, 254, 254);
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.navbar .search-bar .navbar-button:hover {
+  background: linear-gradient(45deg, #717070, #b5b3b3);
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 150%;
+}
+
+span{
+  color: #a4a4a4;
+  font-weight: 500;
+}
+
+.cart-img{
+  height: 40px;
+  margin-left: 360px;
+}
+
+.counting{
+  font-size: 120%;
+  margin-left: 10px;
+}
+
+hr{
+  margin: 13px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.navbar .nav-links {
+  display: flex;
+}
+.nav-links a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 75px;
+}
+
+/*PRODUCT*/
+.product-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.product-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #cbc8c8;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product-btn:hover {
+  background-color: #f2f0ea;
+}
+
+/*DASHBOARD*/
+.addtocart{
+  background-color: #cccbc8;
+  border: 1px solid #ffffff;
+  padding-left: 48px;
+  padding-right: 48px;
+  padding-top:12px ;
+  padding-bottom:12px ;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.price{
+  font-size: 20px; 
+font-weight: 500;
+font-family: "EB Garamond", serif;
+}
+
+
+.sign{
+  color:#a4a4a4 ;
+}
+
+.title{
+  margin-top: 20px;
+  font-size: 250%;
+  font-family: "Cormorant", serif;
+}
+
+.container {
+  display: flex;
+  gap: 40px; 
+  flex-wrap: wrap; 
+  max-width: 1000px; 
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+.box {
+  flex: 1 0 calc(20% - 15px);
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+margin-bottom: 12px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+
+.detail-container {
+  margin-top: 30px;
+}
+
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.product-image img {
+  margin-top: 25px;
+  height: 90%;
+  margin-left:100px ;
+}
+
+.product-info{
+  margin-left: 170px;
+}
+
+.product-info .price {
+    color: #888;
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+.product-info .description {
+    margin: 1em 0;
+    line-height: 1.6;
+    font-family: "Edu SA Beginner", cursive;
+    font-size:25px ;
+}
+
+.buttons{
+  margin-left: 520px;
+}
+
+.detail-btn {
+  margin-left: 74px;
+  margin-top: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top:12px ;
+    padding-bottom:12px ;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-info button:hover {
+    background-color: #555;
+}
+
+.email{
+  text-align: center;
+  font-size: 140%;
+  font-family: "Edu SA Beginner", cursive;
+}
+/*boxes*/
+.box-container {
+  display: flex;
+margin-left: 560px;
+  gap: 20px;
+}
+
+.plus{
+
+  margin-left: 50px;
+
+}
+.minus{
+
+  margin-left: 8px;
+}
+
+.hr2{
+  margin-left: 570px;
+  margin-right: 570px;
+}
